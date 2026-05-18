@@ -5,6 +5,8 @@ use std::fs;
 use std::io::{self, Write};
 use std::path::{Path, PathBuf};
 
+use crate::prove::VerificationSummary;
+
 #[derive(Debug, Serialize, Deserialize, Clone)]
 struct CloudConfig {
     url: String,
@@ -85,7 +87,7 @@ pub struct RemoteConfig {
 }
 
 impl RemoteConfig {
-    pub fn create(&self) -> anyhow::Result<()> {
+    pub fn create(&self) -> anyhow::Result<VerificationSummary> {
         println!("=== Cloud Configuration Setup ===\n");
 
         let existing_config = load_cloud_config(self.cloud_config_path.as_deref()).ok();
@@ -187,7 +189,11 @@ impl RemoteConfig {
         println!("\n✓ Cloud configuration saved successfully!");
         println!("  Config file: {}", path.display());
         println!("\nYou can now use --cloud to load these settings.");
-        Ok(())
+        Ok(VerificationSummary{
+            all_passed: true,
+            succesfull_functions: Vec::new(),
+            failled_functions: Vec::new(),
+        })
     }
 
     pub fn to_config(&self) -> anyhow::Result<Option<RemoteOptions>> {

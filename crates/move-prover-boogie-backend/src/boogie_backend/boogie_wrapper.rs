@@ -1334,10 +1334,14 @@ impl<'env> BoogieWrapper<'env> {
             }
 
             diag = diag.with_notes(display);
+
+            self.env.add_failled_function_from_loc(&error.loc);
+
         }
         self.env.add_diag(diag);
     }
 
+    
     fn get_abbreviated_source(&self, node_id: NodeId) -> String {
         let loc = self.env.get_node_loc(node_id);
         let res = if let Ok(src) = self.env.get_source(&loc) {

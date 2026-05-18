@@ -464,6 +464,9 @@ pub struct GlobalEnv {
     /// The address of the standard and extension libaries.
     stdlib_address: Option<BigUint>,
     extlib_address: Option<BigUint>,
+
+    // List of functions that failed to verify
+    failled_functions: RefCell<Vec<String>>,
 }
 
 /// Struct a helper type for implementing fmt::Display depending on GlobalEnv
@@ -513,6 +516,7 @@ impl GlobalEnv {
             extensions: Default::default(),
             stdlib_address: None,
             extlib_address: None,
+            failled_functions: RefCell::new(Vec::new()),
         }
     }
 
@@ -4504,6 +4508,43 @@ impl GlobalEnv {
 
     pub fn add_stub_log_module(&mut self) {
         self.add_stub_module(self.symbol_pool().make(Self::LOG_MODULE_NAME))
+    }
+
+    pub fn add_failled_function_from_loc(& self, error_location: &Loc) {    
+        if let Some(fun) = self.get_enclosing_function(error_location){
+            let name = fun.get_name().display(self.symbol_pool()).to_string();
+    
+            let mut failled_functions = self.failled_functions.borrow_mut();
+            if !failled_functions.contains(&name) {
+                failled_functions.push(name);
+            }
+        }
+    }
+
+    pub fn get_failled_functions(& self) -> Vec<String>{
+        self.failled_functions.borrow().clone()
+    }
+
+    pub fn get_succesfull_functions(& self) -> Vec<String>{
+        let mut res = Vec::new();
+
+        let failled_functions = self.failled_functions.borrow();
+        for module in self.get_modules() {
+            if !module.is_target() { continue; }
+
+            for func in module.get_functions() {
+                let nombre = func.get_name().display(self.symbol_pool()).to_string();
+                if !failled_functions.contains(&nombre) {
+                    res.push(nombre);
+                }
+            }
+        }
+
+        res
+    }
+    
+    pub fn all_functions_succesfull(&self) -> bool {
+        self.failled_functions.borrow().is_empty()
     }
 }
 

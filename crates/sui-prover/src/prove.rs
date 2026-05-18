@@ -162,6 +162,12 @@ pub struct BuildConfig {
 
 pub const DEFAULT_EXECUTION_TIMEOUT_SECONDS: usize = 45;
 
+pub struct VerificationSummary {
+    pub all_passed           : bool,
+    pub succesfull_functions : Vec<String>,
+    pub failled_functions    : Vec<String>,
+}
+
 pub async fn execute(
     path: Option<&Path>,
     mut general_config: GeneralConfig,
@@ -169,7 +175,7 @@ pub async fn execute(
     build_config: BuildConfig,
     boogie_config: Option<String>,
     filter: TargetFilterOptions,
-) -> anyhow::Result<()> {
+) -> anyhow::Result<VerificationSummary> {
     let model = build_model(path, Some(build_config))?;
     let package_targets = PackageTargets::new(&model, filter.clone(), !general_config.ci, None);
 
@@ -179,7 +185,11 @@ pub async fn execute(
 
     if general_config.stats {
         function_stats::display_function_stats(&model, &package_targets);
-        return Ok(());
+        return Ok(VerificationSummary {
+            all_passed: model.all_functions_succesfull(),
+            succesfull_functions: model.get_succesfull_functions(),
+            failled_functions: model.get_failled_functions(),
+        });
     }
 
     execute_backend_boogie(model, &general_config, remote_config, boogie_config, filter).await
@@ -191,7 +201,7 @@ async fn execute_backend_boogie(
     remote_config: RemoteConfig,
     boogie_config: Option<String>,
     filter: TargetFilterOptions,
-) -> anyhow::Result<()> {
+) -> anyhow::Result<VerificationSummary> {
     let mut options = move_prover_boogie_backend::generator_options::Options::default();
     // don't spawn async tasks when running Boogie--causes a crash if we do
     options.backend.sequential_task = true;
@@ -249,5 +259,9 @@ async fn execute_backend_boogie(
         println!("{}", result_str)
     }
 
-    Ok(())
+    Ok(VerificationSummary {
+        all_passed: model.all_functions_succesfull(),
+        succesfull_functions: model.get_succesfull_functions(),
+        failled_functions: model.get_failled_functions(),
+    })
 }
