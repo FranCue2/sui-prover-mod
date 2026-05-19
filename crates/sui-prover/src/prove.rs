@@ -256,8 +256,16 @@ async fn execute_backend_boogie(
             }
         }
     } else {
-        let result_str = run_boogie_gen(&model, options).await?;
-        println!("{}", result_str)
+        match run_boogie_gen(&model, options).await{
+            Ok(result_str) => {
+                println!("{}", result_str)
+            }
+            Err(e) => {
+                if e.to_string() != "exiting with verification errors" {
+                    return Err(e);
+                }
+            }
+        }
     }
 
     Ok(VerificationSummary {
