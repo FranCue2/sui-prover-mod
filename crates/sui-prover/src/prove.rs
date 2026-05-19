@@ -14,6 +14,7 @@ use move_prover_boogie_backend::generator::run_boogie_gen;
 use move_stackless_bytecode::function_stats;
 use move_stackless_bytecode::package_targets::PackageTargets;
 use move_stackless_bytecode::target_filter::TargetFilterOptions;
+use serde::{Deserialize, Serialize};
 use std::{
     collections::BTreeMap,
     path::{Path, PathBuf},
@@ -161,7 +162,7 @@ pub struct BuildConfig {
 }
 
 pub const DEFAULT_EXECUTION_TIMEOUT_SECONDS: usize = 45;
-
+#[derive(Debug, Clone, Serialize, Deserialize, Default)]
 pub struct VerificationSummary {
     pub all_passed           : bool,
     pub succesfull_functions : Vec<String>,
