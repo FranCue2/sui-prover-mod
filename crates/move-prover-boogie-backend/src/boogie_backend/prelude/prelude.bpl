@@ -221,7 +221,7 @@ function {:inline} $1_integer_div_real(x: int, y: int): real {
     x / y
 }
 
-// sui::tx_context native functions (uninterpreted)
+// sui::tx_context native functions (uninterpreted) ACA ESTAMOS
 function $2_tx_context_native_sender(): int;
 function $2_tx_context_native_epoch(): int;
 function $2_tx_context_native_epoch_timestamp_ms(): int;
