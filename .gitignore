@@ -56,3 +56,6 @@ output/
 
 crates/sui-prover/tests/sources/*
 settings.local.json
+
+
+local
