@@ -3231,8 +3231,14 @@ impl<'env> FunctionTranslator<'env> {
                                         FunctionTranslationStyle::Pure
                                     },
                                 );
-                                let args = srcs.iter().map(|s| fmt_temp(*s)).join(", ");
-                                format!("{}({})", fun_name, args)
+                                // ACA TENGO CAMBIOS
+                                if fun_name == "$2_tx_context_native_sender" {
+                                    format!("_$t0->$sender")
+                                }else{
+                                    let args = srcs.iter().map(|s| fmt_temp(*s)).join(", ");
+                                    format!("{}({})", fun_name, args)
+                                }
+                                
                             } else {
                                 unreachable!(
                                     "Cannot emit function call to {:?} as pure function",

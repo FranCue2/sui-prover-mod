@@ -6,4 +6,4 @@
 
 `¡¡¡Ojo que lo genera en el testing-sui/auction NO donde lo corres!!!`
 
-    cargo run -- -p ../testing-sui/auction/ -g
+    cargo run -- -p ./local/test/ -g

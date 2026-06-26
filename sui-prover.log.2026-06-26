@@ -1,0 +1,167 @@
+2026-06-26T18:23:04.358024Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-06-26T18:23:50.628043Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::auction
+2026-06-26T18:23:51.834477Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::auction
+2026-06-26T18:23:53.189475Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T18:23:53.613136Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T18:23:53.714067Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::auction
+2026-06-26T18:23:54.967894Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T18:23:55.376728Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T18:23:55.477110Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::auction
+2026-06-26T18:23:56.727947Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T18:23:57.160870Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T18:23:57.161115Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/auction::variso_ctx_sender_Check.bpl`
+2026-06-26T18:23:57.441619Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T18:23:57.441676Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -noVerify -printVerifiedProceduresCount:0 output/auction::variso_ctx_sender_Check.bpl -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printModel:1 -proverOpt:O:model_validate=true -inferModifies -enhancedErrorMessages:1 -infer:j -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -vcsCores:4
+2026-06-26T18:23:57.997494Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T18:30:14.168496Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-06-26T18:30:37.572249Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-06-26T18:30:49.658092Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T18:30:50.926961Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T18:30:52.192318Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T18:30:52.622588Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T18:30:52.769595Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T18:30:53.970195Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T18:30:54.383244Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T18:30:54.537999Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T18:30:55.707902Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T18:30:56.160462Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T18:30:56.160712Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_Check.bpl`
+2026-06-26T18:30:56.188446Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T18:30:56.188503Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -enhancedErrorMessages:1 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -noVerify -proverOpt:O:model_validate=true -infer:j -printModel:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -vcsCores:4 output/test::variso_ctx_sender_Check.bpl -printVerifiedProceduresCount:0
+2026-06-26T18:30:57.012152Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T18:30:57.017455Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/test::variso_ctx_sender_Check.bpl.log
+2026-06-26T18:30:57.029926Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_Assume.bpl`
+2026-06-26T18:30:57.030249Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T18:30:57.030295Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -printModel:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 output/test::variso_ctx_sender_Assume.bpl -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printVerifiedProceduresCount:0 -enhancedErrorMessages:1 -infer:j -vcsCores:4 -noVerify -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.LAZY_THRESHOLD=100
+2026-06-26T18:30:57.881087Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T18:30:57.881335Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/test::variso_ctx_sender_Assume.bpl.log
+2026-06-26T18:30:57.882923Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_SpecNoAbortCheck.bpl`
+2026-06-26T18:30:57.883280Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T18:30:57.883331Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -printModel:1 -printVerifiedProceduresCount:0 -infer:j -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -noVerify -vcsCores:4 output/test::variso_ctx_sender_SpecNoAbortCheck.bpl -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -inferModifies -enhancedErrorMessages:1
+2026-06-26T18:30:58.607455Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T18:30:58.607630Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/test::variso_ctx_sender_SpecNoAbortCheck.bpl.log
+2026-06-26T18:30:58.608884Z  INFO move_prover_boogie_backend::generator: 0.000s building, 9.113s verification
+2026-06-26T19:22:42.154245Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-06-26T19:22:55.867745Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:22:57.078545Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:22:58.277067Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:22:58.689757Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:22:58.838297Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:23:00.002589Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:23:00.416626Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:23:00.564134Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:23:01.725891Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:23:02.144847Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:23:02.145081Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_Check.bpl`
+2026-06-26T19:23:02.145500Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T19:23:02.145527Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 output/test::variso_ctx_sender_Check.bpl -printModel:1 -infer:j -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printVerifiedProceduresCount:0 -proverOpt:O:model_validate=true -vcsCores:4 -noVerify -enhancedErrorMessages:1 -inferModifies -proverOpt:O:smt.QI.LAZY_THRESHOLD=100
+2026-06-26T19:23:02.866566Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T19:23:02.870657Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/test::variso_ctx_sender_Check.bpl.log
+2026-06-26T19:23:02.871819Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_Assume.bpl`
+2026-06-26T19:23:02.915138Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T19:23:02.915172Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -printVerifiedProceduresCount:0 -vcsCores:4 output/test::variso_ctx_sender_Assume.bpl -proverOpt:O:model_validate=true -enhancedErrorMessages:1 -infer:j -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -noVerify -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printModel:1
+2026-06-26T19:23:03.623465Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T19:23:03.623635Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/test::variso_ctx_sender_Assume.bpl.log
+2026-06-26T19:23:03.632598Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_SpecNoAbortCheck.bpl`
+2026-06-26T19:23:03.632855Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T19:23:03.632883Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printVerifiedProceduresCount:0 -printModel:1 -inferModifies -enhancedErrorMessages:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:O:model_validate=true -vcsCores:4 -infer:j output/test::variso_ctx_sender_SpecNoAbortCheck.bpl -noVerify
+2026-06-26T19:23:04.358546Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T19:23:04.358762Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/test::variso_ctx_sender_SpecNoAbortCheck.bpl.log
+2026-06-26T19:23:04.484462Z  INFO move_prover_boogie_backend::generator: 0.000s building, 8.789s verification
+2026-06-26T19:24:44.980772Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-06-26T19:24:55.492997Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:24:56.667256Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:24:57.850304Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:24:58.268006Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:24:58.416376Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:24:59.581159Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:24:59.992910Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:25:00.141996Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:25:01.308188Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:25:01.732304Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:25:01.732530Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_Check.bpl`
+2026-06-26T19:25:01.732903Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T19:25:01.732939Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -noVerify output/test::variso_ctx_sender_Check.bpl -printModel:1 -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -printVerifiedProceduresCount:0 -inferModifies -infer:j -vcsCores:4 -enhancedErrorMessages:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3
+2026-06-26T19:25:02.418614Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T19:25:02.422919Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/test::variso_ctx_sender_Check.bpl.log
+2026-06-26T19:25:02.423932Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_Assume.bpl`
+2026-06-26T19:25:02.424206Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T19:25:02.424256Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -enhancedErrorMessages:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 output/test::variso_ctx_sender_Assume.bpl -infer:j -printModel:1 -printVerifiedProceduresCount:0 -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:model_validate=true -vcsCores:4 -noVerify
+2026-06-26T19:25:03.107967Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T19:25:03.108111Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/test::variso_ctx_sender_Assume.bpl.log
+2026-06-26T19:25:03.109371Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_SpecNoAbortCheck.bpl`
+2026-06-26T19:25:03.109668Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T19:25:03.109699Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -inferModifies -enhancedErrorMessages:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printVerifiedProceduresCount:0 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:O:model_validate=true -vcsCores:4 -infer:j -noVerify -printModel:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 output/test::variso_ctx_sender_SpecNoAbortCheck.bpl
+2026-06-26T19:25:03.790984Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T19:25:03.791129Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/test::variso_ctx_sender_SpecNoAbortCheck.bpl.log
+2026-06-26T19:25:03.792325Z  INFO move_prover_boogie_backend::generator: 0.000s building, 8.445s verification
+2026-06-26T19:25:27.518579Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-06-26T19:25:37.646296Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:25:38.810233Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:25:39.986272Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:33:12.728743Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-06-26T19:33:18.731906Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-06-26T19:36:26.484862Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-06-26T19:36:36.900013Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:36:38.063671Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:36:39.258071Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:37:25.076110Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:37:25.228259Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:37:26.414364Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:52:01.299716Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-06-26T19:52:12.471112Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:52:13.683714Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:52:14.939475Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:52:15.424180Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:52:15.628756Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:52:16.890837Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:52:17.318948Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:52:17.475615Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:52:18.731442Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:52:19.185306Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:52:19.185562Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_Check.bpl`
+2026-06-26T19:52:19.186001Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T19:52:19.186031Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -printVerifiedProceduresCount:0 -enhancedErrorMessages:1 -infer:j -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -noVerify -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printModel:1 -inferModifies -vcsCores:4 output/test::variso_ctx_sender_Check.bpl -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3
+2026-06-26T19:52:19.548882Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T19:53:52.992310Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-06-26T19:54:03.593278Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:54:04.824324Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:54:06.153998Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:54:06.610022Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:54:06.762655Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:54:07.985062Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:54:08.403720Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:54:08.552473Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:54:09.778404Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:54:10.221389Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:54:10.221605Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_Check.bpl`
+2026-06-26T19:54:10.222005Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T19:54:10.222046Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:model_validate=true -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printModel:1 -infer:j -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -vcsCores:4 -printVerifiedProceduresCount:0 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -enhancedErrorMessages:1 -noVerify output/test::variso_ctx_sender_Check.bpl -inferModifies
+2026-06-26T19:54:10.611412Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T19:55:22.357758Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-06-26T19:55:33.412212Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:55:34.645747Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:55:36.101623Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:55:36.532996Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:55:36.683691Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:55:37.910033Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:55:38.334779Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:55:38.488865Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::test
+2026-06-26T19:55:39.781025Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-06-26T19:55:40.217778Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 82 verification conditions
+2026-06-26T19:55:40.218012Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_Check.bpl`
+2026-06-26T19:55:40.218381Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T19:55:40.218440Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -printModel:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printVerifiedProceduresCount:0 -inferModifies -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -noVerify -vcsCores:4 -proverOpt:O:model_validate=true output/test::variso_ctx_sender_Check.bpl -infer:j -enhancedErrorMessages:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3
+2026-06-26T19:55:40.961648Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T19:55:40.965806Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/test::variso_ctx_sender_Check.bpl.log
+2026-06-26T19:55:40.966745Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_Assume.bpl`
+2026-06-26T19:55:40.967066Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T19:55:40.967093Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -enhancedErrorMessages:1 output/test::variso_ctx_sender_Assume.bpl -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -inferModifies -proverOpt:O:model_validate=true -printModel:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -vcsCores:4 -printVerifiedProceduresCount:0 -noVerify -infer:j
+2026-06-26T19:55:41.704423Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T19:55:41.704665Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/test::variso_ctx_sender_Assume.bpl.log
+2026-06-26T19:55:41.706051Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/test::variso_ctx_sender_SpecNoAbortCheck.bpl`
+2026-06-26T19:55:41.706396Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-06-26T19:55:41.706459Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -inferModifies -printModel:1 -infer:j -proverOpt:O:model_validate=true -noVerify -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -enhancedErrorMessages:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -printVerifiedProceduresCount:0 -vcsCores:4 output/test::variso_ctx_sender_SpecNoAbortCheck.bpl
+2026-06-26T19:55:42.436821Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-06-26T19:55:42.436978Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/test::variso_ctx_sender_SpecNoAbortCheck.bpl.log
+2026-06-26T19:55:42.437973Z  INFO move_prover_boogie_backend::generator: 0.000s building, 9.182s verification
