@@ -4832,14 +4832,25 @@ impl<'env> FunctionTranslator<'env> {
                                         args_str
                                     );
                                 } else {
-                                    emitln!(
-                                        self.writer(),
-                                        "{}{} := {}({});",
-                                        call_line,
-                                        dest_str,
-                                        fun_name,
-                                        args_str
-                                    );
+
+                                    if fun_name == "$2_tx_context_native_sender" {
+                                        emitln!(
+                                            self.writer(),
+                                            "{}{} := $t0 -> $sender;",
+                                            call_line,
+                                            dest_str
+                                        );
+                                    } else {
+                                        emitln!(
+                                            self.writer(),
+                                            "{}{} := {}({});",
+                                            call_line,
+                                            dest_str,
+                                            fun_name,
+                                            args_str
+                                        );
+                                    }
+
                                 }
 
                                 // restore mutation paths after procedure-style opaque spec call
