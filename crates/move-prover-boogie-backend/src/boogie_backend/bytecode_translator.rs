@@ -3238,12 +3238,10 @@ impl<'env> FunctionTranslator<'env> {
                                     },
                                 );
                                 // ACA TENGO CAMBIOS
-                                if fun_name == "$2_tx_context_native_sender" {
-                                    format!("_$t0->$sender")
-                                }else{
-                                    let args = srcs.iter().map(|s| fmt_temp(*s)).join(", ");
-                                    format!("{}({})", fun_name, args)
-                                }
+                                
+                                let args = srcs.iter().map(|s| fmt_temp(*s)).join(", ");
+                                format!("{}({})", fun_name, args)
+                                
                                 
                             } else {
                                 unreachable!(
@@ -4839,24 +4837,15 @@ impl<'env> FunctionTranslator<'env> {
                                         args_str
                                     );
                                 } else {
-
-                                    if fun_name == "$2_tx_context_native_sender" {
-                                        emitln!(
-                                            self.writer(),
-                                            "{}{} := $t0 -> $sender;",
-                                            call_line,
-                                            dest_str
-                                        );
-                                    } else {
-                                        emitln!(
-                                            self.writer(),
-                                            "{}{} := {}({});",
-                                            call_line,
-                                            dest_str,
-                                            fun_name,
-                                            args_str
-                                        );
-                                    }
+                                
+                                    emitln!(
+                                        self.writer(),
+                                        "{}{} := {}({});",
+                                        call_line,
+                                        dest_str,
+                                        fun_name,
+                                        args_str
+                                    );
 
                                 }
 

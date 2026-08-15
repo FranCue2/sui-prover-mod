@@ -1,0 +1,522 @@
+2026-07-03T16:04:28.688756Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-07-03T16:04:34.922590Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:35.525811Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:36.134667Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:36.409356Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:36.477300Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:37.116467Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:37.390095Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:37.457491Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:38.077152Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:38.351095Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:38.418486Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:39.054809Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:39.330755Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:39.398126Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:40.018891Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:40.292844Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:40.360190Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:40.972508Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:41.240943Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:41.308348Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:41.920253Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:42.187157Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:42.254483Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:42.873000Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:43.141720Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:43.209892Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:43.999965Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:44.268994Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:44.352318Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:44.962687Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:45.225663Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:45.292623Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:45.893970Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:46.154608Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:46.221353Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:46.826569Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:47.091024Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:47.157819Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:47.763152Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:48.027062Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:48.093898Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:48.704192Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:48.974715Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:49.041913Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:49.638704Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:49.899289Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:49.966158Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:50.562396Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:50.822765Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:50.889559Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:51.490952Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:51.751370Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:51.817904Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:52.419442Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:52.681062Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:52.747771Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:53.351786Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:53.621987Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:53.688540Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:54.289691Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:54.557399Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:54.624077Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:55.234742Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:55.504629Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:55.571154Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:56.175946Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:56.445770Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:56.512373Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:57.118986Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:57.388783Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:57.455178Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:58.050264Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:58.315403Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:58.381726Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:58.992238Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:04:59.256931Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:04:59.323339Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:04:59.923323Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:05:00.191170Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:05:00.257750Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:05:00.858855Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:05:01.128405Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:05:01.128537Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Check.bpl`
+2026-07-03T16:06:20.930296Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-07-03T16:06:28.028601Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:28.628165Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:29.265097Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:29.539477Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:29.607994Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:30.233521Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:30.505880Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:30.575140Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:31.207800Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:31.483313Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:31.551958Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:32.180405Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:32.455399Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:32.523944Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:33.150061Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:33.421962Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:33.490550Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:34.110791Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:34.382513Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:34.450893Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:35.064106Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:35.333870Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:35.403001Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:36.030292Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:36.302351Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:36.370846Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:37.014058Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:37.285709Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:37.354813Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:37.967975Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:38.229341Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:38.297084Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:38.904709Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:39.165418Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:39.237193Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:39.858076Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:40.123696Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:40.191711Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:40.802304Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:41.066041Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:41.133871Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:41.744375Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:42.006891Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:42.074625Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:42.675489Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:42.937470Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:43.005146Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:43.606188Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:43.866238Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:43.933939Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:44.539198Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:44.799987Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:44.867524Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:45.473597Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:45.735565Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:45.803088Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:46.409115Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:46.677961Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:46.745528Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:47.351668Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:47.620209Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:47.687650Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:48.299858Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:48.572286Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:48.639698Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:49.248959Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:49.532224Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:49.600262Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:50.210866Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:50.480618Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:50.547996Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:51.148112Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:51.413165Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:51.480695Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:52.082221Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:52.347379Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:52.414710Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:53.020480Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:53.288365Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:53.355634Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:06:53.960835Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:06:54.230325Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:06:54.230456Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Check.bpl`
+2026-07-03T16:06:54.230807Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:06:54.230831Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -inferModifies -proverOpt:O:model_validate=true -infer:j -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printModel:1 -printVerifiedProceduresCount:0 -enhancedErrorMessages:1 -vcsCores:4 output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Check.bpl
+2026-07-03T16:06:54.909178Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:06:54.911811Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Check.bpl.log
+2026-07-03T16:06:54.912837Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_igual_Check.bpl`
+2026-07-03T16:06:54.913011Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:06:54.913035Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -inferModifies -printModel:1 -infer:j -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 output/pruebas_de_contexto::distinto_sender_funciona_con_igual_Check.bpl -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printVerifiedProceduresCount:0 -enhancedErrorMessages:1 -vcsCores:4 -proverOpt:O:model_validate=true
+2026-07-03T16:06:55.538980Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:06:55.549581Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::distinto_sender_funciona_con_igual_Check.bpl.log
+2026-07-03T16:06:55.568700Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_Check.bpl`
+2026-07-03T16:06:55.568946Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:06:55.568972Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -enhancedErrorMessages:1 -vcsCores:4 -infer:j -printModel:1 -printVerifiedProceduresCount:0 -proverOpt:O:model_validate=true -inferModifies -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_Check.bpl
+2026-07-03T16:06:56.155027Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:06:56.155173Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_Check.bpl.log
+2026-07-03T16:06:56.156337Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_Check.bpl`
+2026-07-03T16:06:56.156528Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:06:56.156565Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -printVerifiedProceduresCount:0 -printModel:1 -proverOpt:O:model_validate=true -infer:j -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_Check.bpl -enhancedErrorMessages:1 -inferModifies -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -vcsCores:4
+2026-07-03T16:06:56.735366Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:06:56.735508Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_Check.bpl.log
+2026-07-03T16:06:56.736701Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_structs_Check.bpl`
+2026-07-03T16:06:56.736874Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:06:56.737143Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 output/pruebas_de_contexto::funciona_dentro_de_structs_Check.bpl -printVerifiedProceduresCount:0 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printModel:1 -inferModifies -infer:j -enhancedErrorMessages:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -vcsCores:4 -proverOpt:O:model_validate=true
+2026-07-03T16:06:57.318329Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:06:57.318479Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_structs_Check.bpl.log
+2026-07-03T16:06:57.319703Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_Check.bpl`
+2026-07-03T16:06:57.319882Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:06:57.320080Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -printVerifiedProceduresCount:0 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -inferModifies -proverOpt:O:model_validate=true -printModel:1 output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_Check.bpl -vcsCores:4 -infer:j -enhancedErrorMessages:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10
+2026-07-03T16:06:57.895159Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:06:57.895305Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_Check.bpl.log
+2026-07-03T16:06:57.896448Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_Check.bpl`
+2026-07-03T16:06:57.896620Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:06:57.896647Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -infer:j -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -printModel:1 output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_Check.bpl -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -inferModifies -vcsCores:4 -printVerifiedProceduresCount:0 -enhancedErrorMessages:1
+2026-07-03T16:06:58.476390Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:06:58.476536Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_Check.bpl.log
+2026-07-03T16:06:58.477688Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_Check.bpl`
+2026-07-03T16:06:58.477881Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:06:58.477910Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -infer:j -enhancedErrorMessages:1 -vcsCores:4 output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_Check.bpl -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printVerifiedProceduresCount:0 -printModel:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -inferModifies -proverOpt:O:model_validate=true
+2026-07-03T16:06:59.087736Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:06:59.092714Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_Check.bpl.log
+2026-07-03T16:06:59.112650Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_sender_funciona_con_igual_Check.bpl`
+2026-07-03T16:06:59.112986Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:06:59.113023Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -inferModifies -infer:j -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -enhancedErrorMessages:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printVerifiedProceduresCount:0 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 output/pruebas_de_contexto::mismo_sender_funciona_con_igual_Check.bpl -vcsCores:4 -proverOpt:O:model_validate=true -printModel:1
+2026-07-03T16:06:59.701951Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:06:59.702099Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_sender_funciona_con_igual_Check.bpl.log
+2026-07-03T16:06:59.703213Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Assume.bpl`
+2026-07-03T16:06:59.703364Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:06:59.703388Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -vcsCores:4 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -inferModifies -printVerifiedProceduresCount:0 -proverOpt:O:model_validate=true -printModel:1 -enhancedErrorMessages:1 -infer:j -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Assume.bpl
+2026-07-03T16:07:00.144394Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:00.144552Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Assume.bpl.log
+2026-07-03T16:07:00.145635Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_igual_Assume.bpl`
+2026-07-03T16:07:00.145796Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:00.145820Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -enhancedErrorMessages:1 -printModel:1 output/pruebas_de_contexto::distinto_sender_funciona_con_igual_Assume.bpl -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -inferModifies -printVerifiedProceduresCount:0 -proverOpt:O:model_validate=true -infer:j -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -vcsCores:4
+2026-07-03T16:07:00.576659Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:00.576817Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::distinto_sender_funciona_con_igual_Assume.bpl.log
+2026-07-03T16:07:00.577853Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_Assume.bpl`
+2026-07-03T16:07:00.578028Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:00.578053Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -enhancedErrorMessages:1 -printVerifiedProceduresCount:0 -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -infer:j -vcsCores:4 output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_Assume.bpl -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printModel:1
+2026-07-03T16:07:01.008906Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:01.009057Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_Assume.bpl.log
+2026-07-03T16:07:01.010118Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_Assume.bpl`
+2026-07-03T16:07:01.010288Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:01.010317Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:model_validate=true -printModel:1 output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_Assume.bpl -enhancedErrorMessages:1 -infer:j -vcsCores:4 -printVerifiedProceduresCount:0
+2026-07-03T16:07:01.451168Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:01.451312Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_Assume.bpl.log
+2026-07-03T16:07:01.452407Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_structs_Assume.bpl`
+2026-07-03T16:07:01.452576Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:01.452598Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:model_validate=true -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printModel:1 -printVerifiedProceduresCount:0 -inferModifies -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -vcsCores:4 -enhancedErrorMessages:1 output/pruebas_de_contexto::funciona_dentro_de_structs_Assume.bpl -infer:j
+2026-07-03T16:07:01.890347Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:01.890494Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_structs_Assume.bpl.log
+2026-07-03T16:07:01.891577Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_Assume.bpl`
+2026-07-03T16:07:01.891726Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:01.891748Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -printVerifiedProceduresCount:0 -inferModifies -enhancedErrorMessages:1 -vcsCores:4 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -infer:j -printModel:1 output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_Assume.bpl -proverOpt:O:model_validate=true
+2026-07-03T16:07:02.328959Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:02.329116Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_Assume.bpl.log
+2026-07-03T16:07:02.330277Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_Assume.bpl`
+2026-07-03T16:07:02.330432Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:02.330455Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -inferModifies -printVerifiedProceduresCount:0 -enhancedErrorMessages:1 -vcsCores:4 output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_Assume.bpl -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -infer:j -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -printModel:1
+2026-07-03T16:07:02.769457Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:02.769608Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_Assume.bpl.log
+2026-07-03T16:07:02.770536Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_Assume.bpl`
+2026-07-03T16:07:02.770722Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:02.770745Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -enhancedErrorMessages:1 output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_Assume.bpl -infer:j -printVerifiedProceduresCount:0 -proverOpt:O:model_validate=true -vcsCores:4 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printModel:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -inferModifies
+2026-07-03T16:07:03.218115Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:03.218254Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_Assume.bpl.log
+2026-07-03T16:07:03.219177Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_sender_funciona_con_igual_Assume.bpl`
+2026-07-03T16:07:03.219336Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:03.219359Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -enhancedErrorMessages:1 -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printModel:1 -infer:j -vcsCores:4 output/pruebas_de_contexto::mismo_sender_funciona_con_igual_Assume.bpl -inferModifies -printVerifiedProceduresCount:0 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100
+2026-07-03T16:07:03.669802Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:03.669951Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_sender_funciona_con_igual_Assume.bpl.log
+2026-07-03T16:07:03.670889Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_SpecNoAbortCheck.bpl`
+2026-07-03T16:07:03.671045Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:03.671067Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -inferModifies -vcsCores:4 -proverOpt:O:model_validate=true -infer:j -printVerifiedProceduresCount:0 -enhancedErrorMessages:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printModel:1 output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_SpecNoAbortCheck.bpl -proverOpt:O:smt.QI.EAGER_THRESHOLD=10
+2026-07-03T16:07:04.272056Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:04.272207Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_SpecNoAbortCheck.bpl.log
+2026-07-03T16:07:04.273374Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_igual_SpecNoAbortCheck.bpl`
+2026-07-03T16:07:04.273513Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:04.273539Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -infer:j -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -vcsCores:4 output/pruebas_de_contexto::distinto_sender_funciona_con_igual_SpecNoAbortCheck.bpl -proverOpt:O:model_validate=true -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printVerifiedProceduresCount:0 -inferModifies -enhancedErrorMessages:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printModel:1
+2026-07-03T16:07:04.900046Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:04.905386Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::distinto_sender_funciona_con_igual_SpecNoAbortCheck.bpl.log
+2026-07-03T16:07:04.906905Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_SpecNoAbortCheck.bpl`
+2026-07-03T16:07:04.907091Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:04.907124Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -printModel:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_SpecNoAbortCheck.bpl -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -enhancedErrorMessages:1 -infer:j -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -vcsCores:4 -printVerifiedProceduresCount:0
+2026-07-03T16:07:05.482599Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:05.482861Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_SpecNoAbortCheck.bpl.log
+2026-07-03T16:07:05.484308Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_SpecNoAbortCheck.bpl`
+2026-07-03T16:07:05.484501Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:05.484536Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:model_validate=true -inferModifies -printVerifiedProceduresCount:0 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -enhancedErrorMessages:1 -printModel:1 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_SpecNoAbortCheck.bpl -infer:j -vcsCores:4
+2026-07-03T16:07:06.063728Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:06.063877Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_SpecNoAbortCheck.bpl.log
+2026-07-03T16:07:06.065021Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_structs_SpecNoAbortCheck.bpl`
+2026-07-03T16:07:06.065176Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:06.065198Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 output/pruebas_de_contexto::funciona_dentro_de_structs_SpecNoAbortCheck.bpl -proverOpt:O:model_validate=true -infer:j -vcsCores:4 -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printVerifiedProceduresCount:0 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -printModel:1 -enhancedErrorMessages:1
+2026-07-03T16:07:06.648887Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:06.649037Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_structs_SpecNoAbortCheck.bpl.log
+2026-07-03T16:07:06.650128Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_SpecNoAbortCheck.bpl`
+2026-07-03T16:07:06.650295Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:06.650318Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -vcsCores:4 output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_SpecNoAbortCheck.bpl -proverOpt:O:model_validate=true -infer:j -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printVerifiedProceduresCount:0 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -printModel:1 -enhancedErrorMessages:1
+2026-07-03T16:07:07.228266Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:07.228410Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_SpecNoAbortCheck.bpl.log
+2026-07-03T16:07:07.229478Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_SpecNoAbortCheck.bpl`
+2026-07-03T16:07:07.229654Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:07.229676Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -printModel:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -vcsCores:4 -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printVerifiedProceduresCount:0 -inferModifies -enhancedErrorMessages:1 -infer:j -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_SpecNoAbortCheck.bpl
+2026-07-03T16:07:07.825447Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:07.825595Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_SpecNoAbortCheck.bpl.log
+2026-07-03T16:07:07.826691Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_SpecNoAbortCheck.bpl`
+2026-07-03T16:07:07.826840Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:07.826861Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -infer:j -printVerifiedProceduresCount:0 -printModel:1 -vcsCores:4 output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_SpecNoAbortCheck.bpl -enhancedErrorMessages:1 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:O:model_validate=true
+2026-07-03T16:07:08.453615Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:08.459416Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_SpecNoAbortCheck.bpl.log
+2026-07-03T16:07:08.460913Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_sender_funciona_con_igual_SpecNoAbortCheck.bpl`
+2026-07-03T16:07:08.461089Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:07:08.461110Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -vcsCores:4 -proverOpt:O:model_validate=true -infer:j -printVerifiedProceduresCount:0 -inferModifies -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 output/pruebas_de_contexto::mismo_sender_funciona_con_igual_SpecNoAbortCheck.bpl -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printModel:1 -enhancedErrorMessages:1
+2026-07-03T16:07:09.052403Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:07:09.052552Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_sender_funciona_con_igual_SpecNoAbortCheck.bpl.log
+2026-07-03T16:07:09.053670Z  INFO move_prover_boogie_backend::generator: 0.000s building, 41.097s verification
+2026-07-03T16:08:33.625174Z DEBUG sui_prover: Sui-Prover CLI version: 1.5.3
+2026-07-03T16:08:39.980618Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:40.622926Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:41.286395Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:41.575979Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:41.644872Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:42.273559Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:42.570651Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:42.644241Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:43.298665Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:43.574790Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:43.645717Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:44.275214Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:44.573293Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:44.647816Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:45.286929Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:45.565354Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:45.633775Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:46.261898Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:46.538106Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:46.606164Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:47.222421Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:47.494269Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:47.562076Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:48.179755Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:48.451339Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:48.518704Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:49.134135Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:49.402845Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:49.470721Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:50.106295Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:50.396581Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:50.468846Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:51.083065Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:51.344579Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:51.411976Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:52.018438Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:52.287073Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:52.355890Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:52.964723Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:53.231074Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:53.303014Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:53.909938Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:54.174549Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:54.246235Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:54.843782Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:55.103962Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:55.170575Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:55.767089Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:56.028317Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:56.095659Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:56.700235Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:56.960602Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:57.027476Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:57.629424Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:57.890505Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:57.958070Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:58.565444Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:58.838519Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:58.905859Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:08:59.507981Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:08:59.776021Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:08:59.842773Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:09:00.464219Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:09:00.734193Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:09:00.801050Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:09:01.407965Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:09:01.680689Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:09:01.747653Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:09:02.355389Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:09:02.626032Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:09:02.693392Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:09:03.291341Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:09:03.556695Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:09:03.625399Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:09:04.226119Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:09:04.495686Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:09:04.562459Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:09:05.168975Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:09:05.437569Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:09:05.506276Z  INFO move_prover_boogie_backend::generator: preparing module 0x0::pruebas_de_contexto
+2026-07-03T16:09:06.130946Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: generating verification conditions for 254 module(s)
+2026-07-03T16:09:06.411439Z  INFO move_prover_boogie_backend::boogie_backend::bytecode_translator: 90 verification conditions
+2026-07-03T16:09:06.411776Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Check.bpl`
+2026-07-03T16:09:06.412278Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:06.412331Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -enhancedErrorMessages:1 -printVerifiedProceduresCount:0 output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Check.bpl -printModel:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -inferModifies -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -vcsCores:4 -proverOpt:O:model_validate=true -infer:j
+2026-07-03T16:09:07.055065Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:07.059552Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Check.bpl.log
+2026-07-03T16:09:07.061798Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_igual_Check.bpl`
+2026-07-03T16:09:07.062083Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:07.062117Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -infer:j -inferModifies output/pruebas_de_contexto::distinto_sender_funciona_con_igual_Check.bpl -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:model_validate=true -vcsCores:4 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printModel:1 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -enhancedErrorMessages:1 -printVerifiedProceduresCount:0
+2026-07-03T16:09:07.682533Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:07.692552Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::distinto_sender_funciona_con_igual_Check.bpl.log
+2026-07-03T16:09:07.711417Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_Check.bpl`
+2026-07-03T16:09:07.711639Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:07.711663Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printVerifiedProceduresCount:0 -inferModifies -vcsCores:4 output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_Check.bpl -printModel:1 -enhancedErrorMessages:1 -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -infer:j
+2026-07-03T16:09:08.303574Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:08.303743Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_Check.bpl.log
+2026-07-03T16:09:08.305780Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_Check.bpl`
+2026-07-03T16:09:08.307736Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:08.307846Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:O:model_validate=true -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -enhancedErrorMessages:1 -printModel:1 -printVerifiedProceduresCount:0 -infer:j -vcsCores:4 -inferModifies output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_Check.bpl
+2026-07-03T16:09:08.940681Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:08.940822Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_Check.bpl.log
+2026-07-03T16:09:08.941770Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_structs_Check.bpl`
+2026-07-03T16:09:08.941955Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:08.941977Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -inferModifies -vcsCores:4 -infer:j output/pruebas_de_contexto::funciona_dentro_de_structs_Check.bpl -printVerifiedProceduresCount:0 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -enhancedErrorMessages:1 -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -printModel:1 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10
+2026-07-03T16:09:09.563077Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:09.563216Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_structs_Check.bpl.log
+2026-07-03T16:09:09.564289Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_Check.bpl`
+2026-07-03T16:09:09.564481Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:09.564503Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_Check.bpl -inferModifies -proverOpt:O:model_validate=true -infer:j -printVerifiedProceduresCount:0 -enhancedErrorMessages:1 -vcsCores:4 -printModel:1
+2026-07-03T16:09:10.192359Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:10.192496Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_Check.bpl.log
+2026-07-03T16:09:10.193318Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_Check.bpl`
+2026-07-03T16:09:10.193501Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:10.193530Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -enhancedErrorMessages:1 -printModel:1 -vcsCores:4 -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_Check.bpl -printVerifiedProceduresCount:0 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -inferModifies -infer:j
+2026-07-03T16:09:10.781295Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:10.781435Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_Check.bpl.log
+2026-07-03T16:09:10.782357Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_Check.bpl`
+2026-07-03T16:09:10.782543Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:10.782566Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_Check.bpl -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -infer:j -vcsCores:4 -enhancedErrorMessages:1 -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -printVerifiedProceduresCount:0 -printModel:1 -inferModifies
+2026-07-03T16:09:11.406405Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:11.411406Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_Check.bpl.log
+2026-07-03T16:09:11.430512Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_sender_funciona_con_igual_Check.bpl`
+2026-07-03T16:09:11.430730Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:11.430751Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -enhancedErrorMessages:1 -printModel:1 -inferModifies -printVerifiedProceduresCount:0 -infer:j -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -vcsCores:4 output/pruebas_de_contexto::mismo_sender_funciona_con_igual_Check.bpl
+2026-07-03T16:09:12.014988Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:12.015161Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_sender_funciona_con_igual_Check.bpl.log
+2026-07-03T16:09:12.016631Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Assume.bpl`
+2026-07-03T16:09:12.016833Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:12.016856Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Assume.bpl -printVerifiedProceduresCount:0 -printModel:1 -enhancedErrorMessages:1 -vcsCores:4 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:model_validate=true -inferModifies -infer:j -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100
+2026-07-03T16:09:12.449084Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:12.449218Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_Assume.bpl.log
+2026-07-03T16:09:12.450179Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_igual_Assume.bpl`
+2026-07-03T16:09:12.450373Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:12.450397Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -vcsCores:4 -printVerifiedProceduresCount:0 output/pruebas_de_contexto::distinto_sender_funciona_con_igual_Assume.bpl -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -infer:j -enhancedErrorMessages:1 -proverOpt:O:model_validate=true -inferModifies -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printModel:1 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100
+2026-07-03T16:09:12.895650Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:12.895787Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::distinto_sender_funciona_con_igual_Assume.bpl.log
+2026-07-03T16:09:12.896644Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_Assume.bpl`
+2026-07-03T16:09:12.904250Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:12.904280Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:model_validate=true -printVerifiedProceduresCount:0 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -vcsCores:4 output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_Assume.bpl -printModel:1 -infer:j -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -enhancedErrorMessages:1 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100
+2026-07-03T16:09:13.333443Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:13.333590Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_Assume.bpl.log
+2026-07-03T16:09:13.334455Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_Assume.bpl`
+2026-07-03T16:09:13.334675Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:13.334700Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -enhancedErrorMessages:1 -printModel:1 -inferModifies -proverOpt:O:model_validate=true -printVerifiedProceduresCount:0 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -infer:j -vcsCores:4 output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_Assume.bpl
+2026-07-03T16:09:13.776240Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:13.776380Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_Assume.bpl.log
+2026-07-03T16:09:13.777237Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_structs_Assume.bpl`
+2026-07-03T16:09:13.777431Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:13.777454Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -printVerifiedProceduresCount:0 -enhancedErrorMessages:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -inferModifies -printModel:1 -proverOpt:O:model_validate=true output/pruebas_de_contexto::funciona_dentro_de_structs_Assume.bpl -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -infer:j -vcsCores:4
+2026-07-03T16:09:14.213513Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:14.213655Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_structs_Assume.bpl.log
+2026-07-03T16:09:14.214691Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_Assume.bpl`
+2026-07-03T16:09:14.214879Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:14.214900Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -infer:j -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -printVerifiedProceduresCount:0 -vcsCores:4 -proverOpt:O:model_validate=true output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_Assume.bpl -printModel:1 -enhancedErrorMessages:1 -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3
+2026-07-03T16:09:14.661074Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:14.661225Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_Assume.bpl.log
+2026-07-03T16:09:14.662110Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_Assume.bpl`
+2026-07-03T16:09:14.662285Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:14.662307Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:model_validate=true -enhancedErrorMessages:1 -printVerifiedProceduresCount:0 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -inferModifies -printModel:1 -infer:j -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -vcsCores:4 output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_Assume.bpl
+2026-07-03T16:09:15.092812Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:15.092965Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_Assume.bpl.log
+2026-07-03T16:09:15.093857Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_Assume.bpl`
+2026-07-03T16:09:15.094043Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:15.094069Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_Assume.bpl -vcsCores:4 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -inferModifies -printModel:1 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -enhancedErrorMessages:1 -infer:j -printVerifiedProceduresCount:0 -proverOpt:O:model_validate=true
+2026-07-03T16:09:15.524940Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:15.525078Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_Assume.bpl.log
+2026-07-03T16:09:15.526308Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_sender_funciona_con_igual_Assume.bpl`
+2026-07-03T16:09:15.526489Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:15.526513Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -vcsCores:4 -inferModifies -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -enhancedErrorMessages:1 -infer:j output/pruebas_de_contexto::mismo_sender_funciona_con_igual_Assume.bpl -printVerifiedProceduresCount:0 -proverOpt:O:model_validate=true -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printModel:1
+2026-07-03T16:09:15.956292Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:15.956433Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_sender_funciona_con_igual_Assume.bpl.log
+2026-07-03T16:09:15.957258Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_SpecNoAbortCheck.bpl`
+2026-07-03T16:09:15.957447Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:15.957468Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -enhancedErrorMessages:1 -inferModifies -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:model_validate=true -printModel:1 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -infer:j -printVerifiedProceduresCount:0 output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_SpecNoAbortCheck.bpl -vcsCores:4
+2026-07-03T16:09:16.534319Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:16.534460Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::distinto_sender_funciona_con_distinto_SpecNoAbortCheck.bpl.log
+2026-07-03T16:09:16.535475Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::distinto_sender_funciona_con_igual_SpecNoAbortCheck.bpl`
+2026-07-03T16:09:16.535669Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:16.535692Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printVerifiedProceduresCount:0 -vcsCores:4 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -printModel:1 output/pruebas_de_contexto::distinto_sender_funciona_con_igual_SpecNoAbortCheck.bpl -proverOpt:O:model_validate=true -inferModifies -enhancedErrorMessages:1 -infer:j -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3
+2026-07-03T16:09:17.155076Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:17.160008Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::distinto_sender_funciona_con_igual_SpecNoAbortCheck.bpl.log
+2026-07-03T16:09:17.161437Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_SpecNoAbortCheck.bpl`
+2026-07-03T16:09:17.161746Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:17.161778Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printModel:1 -printVerifiedProceduresCount:0 -enhancedErrorMessages:1 -infer:j -vcsCores:4 -proverOpt:O:model_validate=true output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_SpecNoAbortCheck.bpl
+2026-07-03T16:09:17.740594Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:17.740734Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_funciones_desigualdad_SpecNoAbortCheck.bpl.log
+2026-07-03T16:09:17.741648Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_SpecNoAbortCheck.bpl`
+2026-07-03T16:09:17.741835Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:17.741859Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -inferModifies output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_SpecNoAbortCheck.bpl -infer:j -vcsCores:4 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printVerifiedProceduresCount:0 -proverOpt:O:model_validate=true -printModel:1 -enhancedErrorMessages:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100
+2026-07-03T16:09:18.317076Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:18.317215Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_funciones_igualdad_SpecNoAbortCheck.bpl.log
+2026-07-03T16:09:18.318139Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::funciona_dentro_de_structs_SpecNoAbortCheck.bpl`
+2026-07-03T16:09:18.338637Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:18.338667Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -infer:j output/pruebas_de_contexto::funciona_dentro_de_structs_SpecNoAbortCheck.bpl -printModel:1 -inferModifies -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -printVerifiedProceduresCount:0 -enhancedErrorMessages:1 -vcsCores:4 -proverOpt:O:model_validate=true
+2026-07-03T16:09:18.917006Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:18.917146Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::funciona_dentro_de_structs_SpecNoAbortCheck.bpl.log
+2026-07-03T16:09:18.918117Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_SpecNoAbortCheck.bpl`
+2026-07-03T16:09:18.918305Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:18.918329Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -infer:j -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -vcsCores:4 -enhancedErrorMessages:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printVerifiedProceduresCount:0 -inferModifies output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_SpecNoAbortCheck.bpl -printModel:1
+2026-07-03T16:09:19.503364Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:19.503502Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_ctx_no_implica_distinto_sender_SpecNoAbortCheck.bpl.log
+2026-07-03T16:09:19.504306Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_SpecNoAbortCheck.bpl`
+2026-07-03T16:09:19.504492Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:19.504517Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -enhancedErrorMessages:1 -infer:j -printVerifiedProceduresCount:0 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -vcsCores:4 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -printModel:1 output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_SpecNoAbortCheck.bpl -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -proverOpt:O:model_validate=true -inferModifies
+2026-07-03T16:09:20.076983Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:20.077123Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_ctx_no_implica_mismo_sender_SpecNoAbortCheck.bpl.log
+2026-07-03T16:09:20.078054Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_SpecNoAbortCheck.bpl`
+2026-07-03T16:09:20.078238Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:20.078261Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -infer:j -proverOpt:O:model_validate=true output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_SpecNoAbortCheck.bpl -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -enhancedErrorMessages:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -printVerifiedProceduresCount:0 -inferModifies -printModel:1 -vcsCores:4
+2026-07-03T16:09:20.705546Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:20.710687Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_sender_funciona_con_distinto_SpecNoAbortCheck.bpl.log
+2026-07-03T16:09:20.712028Z DEBUG move_prover_boogie_backend::generator: writing boogie to `output/pruebas_de_contexto::mismo_sender_funciona_con_igual_SpecNoAbortCheck.bpl`
+2026-07-03T16:09:20.712215Z  INFO move_prover_boogie_backend::boogie_backend::boogie_wrapper: running solver
+2026-07-03T16:09:20.712234Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: command line: /home/linuxbrew/.linuxbrew/bin/boogie -infer:j -inferModifies output/pruebas_de_contexto::mismo_sender_funciona_con_igual_SpecNoAbortCheck.bpl -proverOpt:O:smt.QI.LAZY_THRESHOLD=100 -proverOpt:O:model_validate=true -proverOpt:O:smt.QI.EAGER_THRESHOLD=10 -vcsCores:4 -printVerifiedProceduresCount:0 -printModel:1 -proverOpt:PROVER_PATH=/home/linuxbrew/.linuxbrew/bin/z3 -enhancedErrorMessages:1
+2026-07-03T16:09:21.303095Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: analyzing boogie output
+2026-07-03T16:09:21.303232Z DEBUG move_prover_boogie_backend::boogie_backend::boogie_wrapper: writing boogie log to output/pruebas_de_contexto::mismo_sender_funciona_con_igual_SpecNoAbortCheck.bpl.log
+2026-07-03T16:09:21.304104Z  INFO move_prover_boogie_backend::generator: 0.000s building, 41.395s verification
