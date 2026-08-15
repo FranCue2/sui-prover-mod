@@ -183,6 +183,11 @@ impl<'env> BoogieTranslator<'env> {
             })
     }
 
+    /// Like `is_verified_spec`, minus `run_on="lean"` specs (Boogie trusts those).
+    fn is_boogie_verified_spec(&self, qid: &QualifiedId<FunId>) -> bool {
+        self.targets.is_verified_spec(qid) && !self.targets.lean_proven_specs().contains(qid)
+    }
+
     /// Generate a Boogie variable name for a per-spec ignore_aborts flag.
     fn asserts_of_var_name(spec_env: &FunctionEnv) -> String {
         format!(
@@ -741,7 +746,7 @@ impl<'env> BoogieTranslator<'env> {
             .scenario_specs()
             .contains(&fun_env.get_qualified_id())
         {
-            if self.targets.is_verified_spec(&fun_env.get_qualified_id())
+            if self.is_boogie_verified_spec(&fun_env.get_qualified_id())
                 && self.targets.has_target(
                     fun_env,
                     &FunctionVariant::Verification(VerificationFlavor::Regular),
@@ -779,7 +784,7 @@ impl<'env> BoogieTranslator<'env> {
         self.translate_function_style(fun_env, FunctionTranslationStyle::Aborts);
         self.translate_function_style(fun_env, FunctionTranslationStyle::Opaque);
 
-        if self.targets.is_verified_spec(&fun_env.get_qualified_id()) {
+        if self.is_boogie_verified_spec(&fun_env.get_qualified_id()) {
             self.translate_function_style(fun_env, FunctionTranslationStyle::Default);
             self.translate_function_style(fun_env, FunctionTranslationStyle::Asserts);
             self.translate_function_style(fun_env, FunctionTranslationStyle::SpecNoAbortCheck);
@@ -3078,6 +3083,7 @@ impl<'env> FunctionTranslator<'env> {
                 Not => Some(("!", 1)),
                 BitAnd => Some(("$andInt", 2)),
                 BitOr => Some(("$orInt", 2)),
+                Xor => Some(("$xorInt", 2)),
                 Shl => Some(("$shl", 2)),
                 Shr => Some(("$shr", 2)),
                 _ => None,
@@ -3368,6 +3374,7 @@ impl<'env> FunctionTranslator<'env> {
                                     op,
                                     Operation::BitAnd
                                         | Operation::BitOr
+                                        | Operation::Xor
                                         | Operation::Shl
                                         | Operation::Shr
                                 );
