@@ -28,7 +28,7 @@ fun get_value(self: &Stuff, key: u32): Option<Value> {
     self.key_value_map.try_get(&key)
 }
 
-#[mode(spec), ext(spec(prove, ignore_abort))]
+#[spec(prove, ignore_abort)]
 public fun foo_spec(
     self: &mut Stuff,
     key: u32

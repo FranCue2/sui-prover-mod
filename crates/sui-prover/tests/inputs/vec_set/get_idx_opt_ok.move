@@ -8,7 +8,7 @@ fun foo(s: &mut vec_set::VecSet<u64>) {
   s.insert(10);
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun bar_spec(s: &mut vec_set::VecSet<u64>) {
   requires(!s.contains(&10));
   foo(s);

@@ -21,7 +21,7 @@ fun two_asserts_loop(n: u64) {
     };
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun two_asserts_loop_spec(n: u64) {
     asserts(n <= 50);
     two_asserts_loop(n);

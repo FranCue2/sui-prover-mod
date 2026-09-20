@@ -29,13 +29,13 @@ public fun allow_all_key(): AllowAllKey {
     AllowAllKey {}
 }
 
-#[mode(spec), ext(spec(prove, target = add_whitelist_address))]
+#[spec(prove, target = add_whitelist_address)]
 fun add_whitelist_address_spec(uid: &mut UID, addr: address) {
     asserts(!df::exists_with_type<WhitelistKey, bool>(uid, whitelist_key(addr)));
     add_whitelist_address(uid, addr);
 }
 
-#[mode(spec), ext(spec(prove, target = allow_all))]
+#[spec(prove, target = allow_all)]
 fun allow_all_spec(uid: &mut UID) {
     asserts(!df::exists_with_type<AllowAllKey, bool>(uid, allow_all_key()));
     allow_all(uid);

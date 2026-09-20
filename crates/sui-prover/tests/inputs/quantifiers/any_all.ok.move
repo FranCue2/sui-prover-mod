@@ -1,10 +1,10 @@
 #[allow(unused)]
 module 0x42::quantifiers_any_all_ok;
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 use prover::prover::ensures;
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 use prover::vector_iter::{any, all};
 
 #[ext(pure)]
@@ -22,7 +22,7 @@ fun x_is_greater_than_100(x: &u64): bool {
     *x > 100
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun test_any_all() {
     let v = vector[10, 20, 10, 30];
 
@@ -39,7 +39,7 @@ fun test_any_all() {
 
 // Empty-vector edge cases: any over an empty vector is false; all is
 // vacuously true.
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun test_any_all_empty() {
     let empty: vector<u64> = vector[];
     ensures(!any!<u64>(&empty, |x| x_is_10(x)));

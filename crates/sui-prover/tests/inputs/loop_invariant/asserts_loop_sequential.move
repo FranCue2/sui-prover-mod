@@ -27,7 +27,7 @@ fun two_sequential_loops(n: u64, m: u64) {
     };
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun two_sequential_loops_spec(n: u64, m: u64) {
     asserts(n <= 100);
     asserts(m <= 200);

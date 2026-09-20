@@ -14,7 +14,7 @@ public(package) fun foo(
     0u64
 } 
 
-#[mode(spec), ext(spec(prove, ignore_abort))]
+#[spec(prove, ignore_abort)]
 public fun foo_spec(    
     self: &mut Stuff,
 ): u64 {

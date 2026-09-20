@@ -9,10 +9,10 @@ module 0x42::dynamic_fields {
         u128::sqrt(x) as u64
     }
 
-    #[mode(spec), ext(spec_only)]
+    #[spec_only]
     use prover::prover::ensures;
 
-    #[mode(spec), ext(spec(prove))]
+    #[spec(prove)]
     fun sqrt_spec(x: u128, ctx: &mut TxContext): u64 {
         let x_int = x.to_int();
 

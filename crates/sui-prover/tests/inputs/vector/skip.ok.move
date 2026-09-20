@@ -12,11 +12,11 @@ public fun test_skip_all(v: vector<u64>): vector<u64> {
 }
 
 public fun test_skip_empty(): vector<u64> {
-    let v: vector<u64> = vector[];
+    let v = vector::empty<u64>();
     vector::skip(v, 0)
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun test_skip_zero_spec() {
     let v = vector[0, 1, 2];
     let result = test_skip_basic(v, 0);
@@ -26,7 +26,7 @@ fun test_skip_zero_spec() {
     ensures(*vector::borrow(&result, 2) == 2);
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun test_skip_one_spec() {
     let v = vector[0, 1, 2];
     let result = test_skip_basic(v, 1);
@@ -35,7 +35,7 @@ fun test_skip_one_spec() {
     ensures(*vector::borrow(&result, 1) == 2);
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun test_skip_two_spec() {
     let v = vector[0, 1, 2];
     let result = test_skip_basic(v, 2);
@@ -43,21 +43,21 @@ fun test_skip_two_spec() {
     ensures(*vector::borrow(&result, 0) == 2);
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun test_skip_all_spec(v: vector<u64>): vector<u64> {
     let result = test_skip_all(v);
     ensures(vector::length(&result) == 0);
     result
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun test_skip_empty_spec(): vector<u64> {
     let result = test_skip_empty();
     ensures(vector::length(&result) == 0);
     result
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun test_skip_preserves_elements_spec() {
     let v = vector[10, 20, 30, 40, 50];
     let result = test_skip_basic(v, 2);

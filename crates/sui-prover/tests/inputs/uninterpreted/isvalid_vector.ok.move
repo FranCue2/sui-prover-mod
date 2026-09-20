@@ -10,7 +10,7 @@ fun user() {
     assert!(vex(u).length() >= 0, 1);
 }
 
-#[mode(spec), ext(spec(prove, uninterpreted = vex))]
+#[spec(prove, uninterpreted = vex)]
 fun user_spec() {
     user();
 }

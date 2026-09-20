@@ -1,4 +1,3 @@
-#[allow(deprecated_usage)]
 module 0x42::foo;
 
 use sui::dynamic_field as df;
@@ -28,7 +27,7 @@ public fun set_fee(config: &mut GlobalConfig, amount: u64, ctx: &mut TxContext) 
     *coin_fee = amount;
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 public fun set_fee_spec(config: &mut GlobalConfig, amount: u64, ctx: &mut TxContext) {
     set_fee(config, amount, ctx);
 }

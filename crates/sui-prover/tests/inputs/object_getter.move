@@ -11,13 +11,13 @@ fun struct_value(self: &Str1): u64 {
     self.value
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun struct_value_spec(self: &Str1): u64 {
     let r = struct_value(self);
     r
 }
 
-#[mode(spec), ext(spec(prove))] // fails without deterministic analysis
+#[spec(prove)] // fails without deterministic analysis
 fun my_spec(s1: &Str1, s2: &Str1) {
     requires(s1 == s2);
     ensures(struct_value(s1) == struct_value(s2))

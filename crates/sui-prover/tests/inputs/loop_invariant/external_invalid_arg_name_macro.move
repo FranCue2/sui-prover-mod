@@ -28,13 +28,13 @@ macro fun test_loop_2($n: u64): u128 {
     s
 }
 
-#[mode(spec), ext(spec_only(loop_inv(target = test_spec)), no_abort)]
-#[allow(unused_function)]
+#[spec_only(loop_inv(target = test_spec))]
+#[ext(no_abort)]
 fun loop_inv(i: u64, n: u64, compare: u128): bool {
     i <= n && (compare == (i as u128) * ((i as u128) + 1) / 2)
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun test_spec(n: u64): u128 {
     let s = test_loop!(n);
     empty_macro!();

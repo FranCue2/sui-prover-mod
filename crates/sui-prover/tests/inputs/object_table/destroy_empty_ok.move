@@ -12,7 +12,7 @@ fun foo(t: ObjectTable<u64, Foo>) {
   t.destroy_empty()
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun foo_spec(t: ObjectTable<u64, Foo>) {
   requires(t.is_empty());
   foo(t);

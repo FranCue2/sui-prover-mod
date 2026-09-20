@@ -1,4 +1,3 @@
-#[allow(deprecated_usage)]
 module 0x42::foo;
 
 use prover::prover::{requires, ensures};
@@ -13,7 +12,7 @@ fun foo(x: &mut Foo) {
     dynamic_field::add<u64, u64>(&mut x.id, 10u64, 0);
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun foo_spec(x: &mut Foo) {
     requires(!dynamic_field::exists_with_type<u64, u64>(&x.id, 10u64));
     foo(x);

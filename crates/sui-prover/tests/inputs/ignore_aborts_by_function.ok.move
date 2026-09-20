@@ -10,13 +10,13 @@ fun bar(x: u64): u64 {
     x + 1
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun foo_spec(x: u64): u64 {
     prover::asserts(prover::asserts_of(b"bar"));
     foo(x)
 }
 
-#[mode(spec), ext(spec(prove, ignore_abort))]
+#[spec(prove, ignore_abort)]
 fun bar_spec(x: u64): u64 {
     bar(x)
 }

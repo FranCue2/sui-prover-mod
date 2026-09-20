@@ -1,4 +1,3 @@
-#[allow(deprecated_usage)]
 module 0x42::vector_singleton;
 
 use prover::prover::ensures;
@@ -9,7 +8,7 @@ public fun make_s<T: copy + drop>(e: T): vector<T> {
     vector::singleton(e)
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun my_spec<T: copy + drop>(e: T): vector<T> {
     let r = make_s<T>(e);
     ensures(vector::length(&r) == 1);
