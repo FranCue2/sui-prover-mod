@@ -7,7 +7,7 @@ fun foo(a: Integer, b: Integer): Integer {
     a.pow(b)
 }
 
-#[mode(spec), ext(spec(prove, uninterpreted = std::integer::pow))]
+#[spec(prove, uninterpreted = std::integer::pow)]
 fun foo_spec(a: Integer, b: Integer): Integer {
     let result = foo(a, b);
     ensures(result == result);

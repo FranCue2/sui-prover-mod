@@ -4,7 +4,7 @@ public fun foo() {
   assert!(true);
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 public fun foo_spec() {
   foo();
 }

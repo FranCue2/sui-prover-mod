@@ -48,7 +48,7 @@ fun increment_all(v: &mut vector<u64>) {
     };
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun increment_all_spec(v: &mut vector<u64>) {
     asserts(forall!(|j| safe_at(*j, v)));
     increment_all(v);

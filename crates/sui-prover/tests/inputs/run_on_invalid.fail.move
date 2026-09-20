@@ -5,7 +5,7 @@ public fun foo() {
 }
 
 // This spec has an invalid run_on value and should produce an error
-#[mode(spec), ext(spec(prove, run_on=b"somewhere"))]
+#[spec(prove, run_on=b"somewhere")]
 public fun foo_spec_invalid() {
     foo();
 }

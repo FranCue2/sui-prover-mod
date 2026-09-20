@@ -10,7 +10,7 @@ fun f(s: &S): ID {
     object::id(s)
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun f_spec(s: &S) : ID {
     let r = f(s);
     ensures(r == object::id(s));

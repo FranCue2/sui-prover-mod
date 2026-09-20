@@ -9,13 +9,13 @@ fun foo(ref: &mut bool) {
   *ref = true;
 }
 
-#[mode(spec), ext(spec)]
+#[spec]
 fun foo_spec(ref: &mut bool) {
   foo(ref);
   ensures(*ref == true);
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun ghost_borrow_mut_spec() {
   ghost::declare_global_mut<GhostStruct, bool>();
   let ghost_ref = ghost::borrow_mut<GhostStruct, bool>();

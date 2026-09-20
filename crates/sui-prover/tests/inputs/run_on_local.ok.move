@@ -5,13 +5,13 @@ public fun foo() {
 }
 
 // This spec should be able to run locally even when --cloud is configured
-#[mode(spec), ext(spec(prove, run_on=b"local"))]
+#[spec(prove, run_on=b"local")]
 public fun foo_spec_local() {
     foo();
 }
 
 // This spec should run according to the global setting
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 public fun foo_spec_default() {
     foo();
 }

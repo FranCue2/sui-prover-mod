@@ -11,19 +11,17 @@ public fun few(x: u8, z: u8) {
     }
 }
 
-#[mode(spec), ext(spec_only(loop_inv(target = few, label = 0)), pure)]
-#[allow(unused_function)]
+#[spec_only(loop_inv(target = few, label = 0)), ext(pure)]
 fun inv1(y: u8, x: u8): bool {
     y <= x
 }
 
-#[mode(spec), ext(spec_only(loop_inv(target = few, label = 1)), pure)]
-#[allow(unused_function)]
+#[spec_only(loop_inv(target = few, label = 1)), ext(pure)]
 fun inv2(i: u8, z: u8): bool {
     i <= z
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 public fun few_spec(x: u8, z: u8) {
     few(x, z)
 }

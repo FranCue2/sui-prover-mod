@@ -1,6 +1,6 @@
 module 0x42::simple_max_succeeds_test;
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 use prover::prover::{ensures};
 
 #[ext(pure)]
@@ -12,7 +12,7 @@ public fun simple_max(a: u64, b: u64): u64 {
     }
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun simple_max_spec(a: u64, b: u64): u64 {
     let result = simple_max(a, b);
 

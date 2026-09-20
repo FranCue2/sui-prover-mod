@@ -9,7 +9,7 @@ fun set_test() {
     ghost::set<GhostStruct, bool>(&true);
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun set_test_spec() {
     ghost::declare_global_mut<GhostStruct, bool>();
     set_test();

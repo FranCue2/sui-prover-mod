@@ -11,7 +11,6 @@ use move_model::model::GlobalEnv;
 use move_package::{BuildConfig as MoveBuildConfig, LintFlag};
 use move_prover_boogie_backend::boogie_backend::options::BoogieFileMode;
 use move_prover_boogie_backend::generator::run_boogie_gen;
-use move_stackless_bytecode::attr_query::SPEC_MODE;
 use move_stackless_bytecode::function_stats;
 use move_stackless_bytecode::package_targets::PackageTargets;
 use move_stackless_bytecode::target_filter::TargetFilterOptions;
@@ -42,7 +41,7 @@ impl From<BuildConfig> for MoveBuildConfig {
             additional_named_addresses: config.additional_named_addresses,
             save_disassembly: false,
             implicit_dependencies: BTreeMap::new(),
-            modes: vec![ModeAttribute::VERIFY_ONLY.into(), SPEC_MODE.into()],
+            modes: vec![ModeAttribute::VERIFY_ONLY.into()],
             force_lock_file: false,
         }
     }

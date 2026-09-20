@@ -23,7 +23,7 @@ fun bounded_loop_nonzero(n: u64) {
     };
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun bounded_loop_nonzero_spec(n: u64) {
     requires(n > 0);
     asserts(n <= 100);

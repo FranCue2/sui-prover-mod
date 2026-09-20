@@ -6,7 +6,7 @@ fun foo(x: u64): u64 {
     x + 1
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun foo_spec(x: u64): u64 {
     prover::asserts(prover::asserts_of(b"nonexistent"));
     foo(x)

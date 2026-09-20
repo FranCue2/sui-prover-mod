@@ -1,13 +1,13 @@
 module 0x42::foo;
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 use prover::prover::{ensures, requires};
 
 public fun foo(x: u64): u64 {
   x + 1
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 public fun foo_spec(x: u64): u64 {
   requires(x < std::u64::max_value!());
   let res = foo(x);

@@ -6,7 +6,7 @@ public struct S has key, store {
     id: UID,
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun purity_spec(s: &S) {
     let id1 = object::id(s);
     let id2 = object::id(s);

@@ -8,7 +8,7 @@ fun foo(t: Table<u64, u8>) {
   t.destroy_empty()
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun foo_spec(t: Table<u64, u8>) {
   requires(t.is_empty());
   foo(t);

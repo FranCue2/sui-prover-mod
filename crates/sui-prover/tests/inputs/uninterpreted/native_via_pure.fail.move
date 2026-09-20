@@ -13,7 +13,7 @@ fun foo(x: Integer): Integer {
     square(x)
 }
 
-#[mode(spec), ext(spec(prove, uninterpreted = std::integer::pow))]
+#[spec(prove, uninterpreted = std::integer::pow)]
 fun foo_spec(x: Integer): Integer {
     let result = foo(x);
     ensures(result == x.mul(x)); // fails: pow is uninterpreted inside square$pure

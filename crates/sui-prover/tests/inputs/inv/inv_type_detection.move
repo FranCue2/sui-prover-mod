@@ -77,21 +77,21 @@ fun initial_exchange_rate(): PoolTokenExchangeRate {
     PoolTokenExchangeRate { sui_amount: 0, pool_token_amount: 0 }
 }
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 use prover::prover::requires;
 
-#[mode(spec), ext(spec(prove, no_opaque))]
+#[spec(prove, no_opaque)]
 public fun is_equal_staking_metadata_spec(self: &StakedSui, other: &StakedSui): bool {
     is_equal_staking_metadata(self, other)
 }
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 public fun activation_epoch_is_positive(pool: &StakingPool): bool {
     pool.activation_epoch.is_some() &&
     *pool.activation_epoch.borrow() > 0
 }
 
-#[mode(spec), ext(spec)]
+#[spec()]
 public fun pool_token_exchange_rate_at_epoch_spec(
     pool: &StakingPool,
     epoch: u64,
@@ -102,8 +102,7 @@ public fun pool_token_exchange_rate_at_epoch_spec(
 }
 
 
-#[mode(spec), ext(spec_only(inv_target=std::option::Option))]
-#[allow(unused_function)]
+#[spec_only(inv_target=std::option::Option)]
 fun Option_inv<T>(self: &Option<T>): bool {
     if (self.is_some()) {
         let o = prover::prover::val(self.borrow());

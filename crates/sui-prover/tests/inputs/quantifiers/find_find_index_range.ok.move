@@ -1,10 +1,10 @@
 #[allow(unused)]
 module 0x42::quantifiers_find_find_index_range_ok;
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 use prover::prover::ensures;
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 use prover::vector_iter::{find_range, find_index_range};
 
 #[ext(pure)]
@@ -17,7 +17,7 @@ fun x_is_20(x: &u64): bool {
     *x == 20
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun test_find_find_index_range() {
     let v = vector[10, 20, 10, 30];
 

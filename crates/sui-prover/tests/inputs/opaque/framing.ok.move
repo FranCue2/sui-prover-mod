@@ -6,12 +6,12 @@ fun set(x: &mut u8) {
     *x = 0
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun set_spec(x: &mut u8) {
     set(x)
 }
 
-#[mode(spec), ext(spec(prove, focus))]
+#[spec(prove, focus)]
 fun frame(v: &mut vector<u8>, i: u64, j: u64) {
     requires(j < v.length());
     requires(i < j);

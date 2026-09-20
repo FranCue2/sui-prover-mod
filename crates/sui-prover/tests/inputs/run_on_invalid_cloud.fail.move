@@ -5,7 +5,7 @@ public fun foo() {
 }
 
 // This spec should fail, --cloud is not configured
-#[mode(spec), ext(spec(prove, run_on=b"cloud"))]
+#[spec(prove, run_on=b"cloud")]
 public fun foo_spec_cloud() {
     foo();
 }

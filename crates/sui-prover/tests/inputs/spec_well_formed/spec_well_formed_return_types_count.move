@@ -1,13 +1,13 @@
 module 0x42::foo;
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 use prover::prover::ensures;
 
 public fun foo(x: u128) {
   assert!(true);
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 public fun foo_spec(x: u128): u128 {
   foo(x);
   ensures(true);

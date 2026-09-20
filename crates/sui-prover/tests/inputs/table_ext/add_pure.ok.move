@@ -3,13 +3,13 @@ module 0x42::table_ext_add_pure_ok;
 
 use sui::table::Table;
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 use prover::prover::{ensures, requires, clone};
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 use sui::table::add_pure;
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun test_add_matches(t: &mut Table<u64, u8>, k: u64, v: u8) {
     requires(!t.contains(k));
     let old_t = clone!(t);

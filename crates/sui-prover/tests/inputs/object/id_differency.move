@@ -7,7 +7,7 @@ public struct S has key, store {
 }
 
 // Test object::id with different objects
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun different_objects_spec(s1: &S, s2: &S) {
     requires(s1 != s2);
     ensures(object::id(s1) != object::id(s2));

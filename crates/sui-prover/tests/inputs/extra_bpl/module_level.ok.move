@@ -1,15 +1,15 @@
 #[allow(unused)]
-#[mode(spec), ext(spec_only(extra_bpl = b"module_level.ok.bpl"))]
+#[spec_only(extra_bpl = b"module_level.ok.bpl")]
 module 0x42::extra_bpl_module_test;
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 use prover::prover::ensures;
 
 // Native function defined in the module-level extra BPL file
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 native fun custom_multiply(x: u64, y: u64): u64;
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun test_custom_multiply_spec() {
     ensures(custom_multiply(2, 3) == 6);
     ensures(custom_multiply(5, 4) == 20);

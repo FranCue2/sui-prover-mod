@@ -7,7 +7,7 @@ public fun f(x: u8): u8 {
     x + 1
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 public fun f_spec(x: u8): u8 {
     f(x)
 }

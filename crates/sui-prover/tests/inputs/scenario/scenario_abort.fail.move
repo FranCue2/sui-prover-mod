@@ -1,13 +1,13 @@
 module 0x42::foo;
 
-#[mode(spec), ext(spec_only)]
+#[spec_only]
 use prover::prover::ensures;
 
 fun foo(a: u128): bool {
     a >= 0
 }
 
-#[mode(spec), ext(spec(prove))]
+#[spec(prove)]
 fun scenario(a: u128): bool {
     let res = foo(a);
     assert!(false);
